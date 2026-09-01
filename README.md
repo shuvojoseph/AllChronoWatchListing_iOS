@@ -1,12 +1,3 @@
-//
-//  README.md
-//  AllChronoWatchListing_iOS
-//
-//  Created by Shuvo Joseph on 1/9/26.
-//
-
-
-````markdown
 # AllChrono — Watch Listing
 
 A native iOS implementation of the AllChrono watch marketplace listing exercise, built with **SwiftUI**, **Swift Concurrency**, **MVVM**, and the **Repository pattern**.
@@ -17,21 +8,11 @@ The goal was to build a clean, production-minded watch listing experience within
 
 ## 📱 Screenshots
 
-<table>
-<tr>
-<td align="center">
-<img src="ScreenShots/AllChronoWatchList_1.png" width="220">
-</td>
-<td align="center">
-<img src="ScreenShots/AllChronoWatchList_2.png" width="220">
-</td>
-<td align="center">
-<img src="ScreenShots/AllChronoWatchList_3.png" width="220">
-</td>
-</tr>
-</table>
-
----
+<p align="center">
+  <img src="./ScreenShots/AllChronoWatchList_1.png" width="250">
+  <img src="./ScreenShots/AllChronoWatchList_2.png" width="250">
+  <img src="./ScreenShots/AllChronoWatchList_3.png" width="250">
+</p>
 
 ## ✨ Features
 
