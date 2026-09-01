@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3088EE833046EF5000D7E449 /* AllChronoWatchList_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088EE803046EF5000D7E449 /* AllChronoWatchList_2.png */; };
+		3088EE843046EF5000D7E449 /* AllChronoWatchList_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088EE813046EF5000D7E449 /* AllChronoWatchList_3.png */; };
+		3088EE853046EF5000D7E449 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3088EE7E3046EF5000D7E449 /* README.md */; };
+		3088EE863046EF5000D7E449 /* AllChronoWatchList_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088EE7F3046EF5000D7E449 /* AllChronoWatchList_1.png */; };
 		30F7F1D93046D1C300070445 /* watches.json in Resources */ = {isa = PBXBuildFile; fileRef = 30F7F1D83046D1C300070445 /* watches.json */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3088EE7E3046EF5000D7E449 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3088EE7F3046EF5000D7E449 /* AllChronoWatchList_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AllChronoWatchList_1.png; sourceTree = "<group>"; };
+		3088EE803046EF5000D7E449 /* AllChronoWatchList_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AllChronoWatchList_2.png; sourceTree = "<group>"; };
+		3088EE813046EF5000D7E449 /* AllChronoWatchList_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AllChronoWatchList_3.png; sourceTree = "<group>"; };
 		30F7F1953046C16E00070445 /* AllChronoWatchListing_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllChronoWatchListing_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F7F1A23046C16F00070445 /* AllChronoWatchListing_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllChronoWatchListing_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F7F1AC3046C16F00070445 /* AllChronoWatchListing_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllChronoWatchListing_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +85,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3088EE823046EF5000D7E449 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				3088EE7F3046EF5000D7E449 /* AllChronoWatchList_1.png */,
+				3088EE803046EF5000D7E449 /* AllChronoWatchList_2.png */,
+				3088EE813046EF5000D7E449 /* AllChronoWatchList_3.png */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 		30F7F18C3046C16E00070445 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +109,8 @@
 				30F7F1C33046CF3200070445 /* Views */,
 				30F7F1C43046CF3200070445 /* Utilities */,
 				30F7F1D83046D1C300070445 /* watches.json */,
+				3088EE7E3046EF5000D7E449 /* README.md */,
+				3088EE823046EF5000D7E449 /* ScreenShots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,6 +286,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3088EE833046EF5000D7E449 /* AllChronoWatchList_2.png in Resources */,
+				3088EE843046EF5000D7E449 /* AllChronoWatchList_3.png in Resources */,
+				3088EE853046EF5000D7E449 /* README.md in Resources */,
+				3088EE863046EF5000D7E449 /* AllChronoWatchList_1.png in Resources */,
 				30F7F1D93046D1C300070445 /* watches.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
