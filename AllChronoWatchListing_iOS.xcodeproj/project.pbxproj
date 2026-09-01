@@ -34,22 +34,9 @@
 		30F7F1D83046D1C300070445 /* watches.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = watches.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30F7F1D73046CFB600070445 /* Exceptions for "AllChronoWatchListing_iOS" folder in "AllChronoWatchListing_iOS" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Utilities/NetworkMonitor.swift,
-			);
-			target = 30F7F1943046C16E00070445 /* AllChronoWatchListing_iOS */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		30F7F1973046C16E00070445 /* AllChronoWatchListing_iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				30F7F1D73046CFB600070445 /* Exceptions for "AllChronoWatchListing_iOS" folder in "AllChronoWatchListing_iOS" target */,
-			);
 			path = AllChronoWatchListing_iOS;
 			sourceTree = "<group>";
 		};
