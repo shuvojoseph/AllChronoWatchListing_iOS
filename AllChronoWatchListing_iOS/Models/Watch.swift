@@ -1,7 +1,10 @@
 import Foundation
 
-struct Watch: Identifiable, Equatable {
-    let id: UUID
-    let name: String
-    let brand: String
+struct Watch: Codable, Identifiable, Equatable {
+    let id: String
+    let make: String
+    let model: String
+    let price: Int
+    let currency: String
+    let imageUrl: String
 }

@@ -6,7 +6,7 @@ struct AllChronoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WatchListView(viewModel: appContainer.makeWatchListViewModel())
         }
     }
 }
