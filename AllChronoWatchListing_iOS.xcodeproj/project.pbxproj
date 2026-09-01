@@ -29,9 +29,28 @@
 		30F7F1AC3046C16F00070445 /* AllChronoWatchListing_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllChronoWatchListing_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		30F7F1D73046CFB600070445 /* Exceptions for "AllChronoWatchListing_iOS" folder in "AllChronoWatchListing_iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Watch.swift,
+				Repositories/LocalWatchRepository.swift,
+				Repositories/WatchRepository.swift,
+				Utilities/NetworkMonitor.swift,
+				ViewModels/WatchListViewModel.swift,
+				Views/WatchCardView.swift,
+				Views/WatchListView.swift,
+			);
+			target = 30F7F1943046C16E00070445 /* AllChronoWatchListing_iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		30F7F1973046C16E00070445 /* AllChronoWatchListing_iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				30F7F1D73046CFB600070445 /* Exceptions for "AllChronoWatchListing_iOS" folder in "AllChronoWatchListing_iOS" target */,
+			);
 			path = AllChronoWatchListing_iOS;
 			sourceTree = "<group>";
 		};
@@ -79,6 +98,12 @@
 				30F7F1A53046C16F00070445 /* AllChronoWatchListing_iOSTests */,
 				30F7F1AF3046C16F00070445 /* AllChronoWatchListing_iOSUITests */,
 				30F7F1963046C16E00070445 /* Products */,
+				30F7F1BF3046CF3100070445 /* App */,
+				30F7F1C03046CF3100070445 /* Models */,
+				30F7F1C13046CF3100070445 /* Repositories */,
+				30F7F1C23046CF3100070445 /* ViewModels */,
+				30F7F1C33046CF3200070445 /* Views */,
+				30F7F1C43046CF3200070445 /* Utilities */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +115,48 @@
 				30F7F1AC3046C16F00070445 /* AllChronoWatchListing_iOSUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		30F7F1BF3046CF3100070445 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		30F7F1C03046CF3100070445 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30F7F1C13046CF3100070445 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		30F7F1C23046CF3100070445 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		30F7F1C33046CF3200070445 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30F7F1C43046CF3200070445 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
